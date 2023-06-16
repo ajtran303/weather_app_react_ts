@@ -1,4 +1,4 @@
-function Result(props: any) {
+function Result(props: any): JSX.Element {
   const { weatherData } = props;
 
   let weatherIcon;

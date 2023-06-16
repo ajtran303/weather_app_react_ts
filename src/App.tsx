@@ -6,7 +6,7 @@ import fetchWeatherData from "../lib/fetch-weather-data";
 
 import { BaseSyntheticEvent, useState } from "react";
 
-function App() {
+function App(): JSX.Element {
   const [weatherData, setWeatherData] = useState({});
 
   function handleSubmit(event: BaseSyntheticEvent): void {

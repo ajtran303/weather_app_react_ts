@@ -1,4 +1,4 @@
-function Form(props: any) {
+function Form(props: any): JSX.Element {
   const { onSubmit } = props;
 
   return (
