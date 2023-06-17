@@ -26,11 +26,19 @@ function App(): JSX.Element {
     form.reset();
   }
 
+  const containerStyle = {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+  }
+
   return (
     <>
       <Header />
-      <Form onSubmit={handleSubmit} />
-      <Result weatherData={weatherData} />
+      <main style={containerStyle}>
+        <Form onSubmit={handleSubmit} />
+        <Result weatherData={weatherData} />
+      </main>
     </>
   )
 }
