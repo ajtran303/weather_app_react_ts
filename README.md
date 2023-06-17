@@ -6,18 +6,16 @@ A weather app built with React and Typescript with the Vite build tool.
 
 [Skip straight to the fun part without setting anything up!](https://weather-app-edkw.onrender.com/)
 
-## Prerequisites
 
-You must have `node` installed.
+## Local Setup
+
+You must have `node` installed. Fork and clone this repo, `cd` into it and run `npm install`. 
 
 ### Get OpenWeatherMap API key
 
 - [Sign up for an OpenWeatherMap account](https://home.openweathermap.org/users/sign_up).
 - You will receive an email with your API Key in it. For more information, read the [API Key Documentation](https://openweathermap.org/appid).
 
-## Local Setup
-
-Fork and clone this repo, `cd` into it and run `npm install`. 
 
 ### Use your API key
 - In this project's root directory, create a file named `.env`
@@ -49,7 +47,7 @@ Use the `npm run dev` command to start serving the app on [localhost:5173](http:
 ## Project requirements checklist
 
 - *Completed:* Create a React project that uses three components
-  - [The Header is a component](./src/Header.tsx`)
+  - [The Header is a component](./src/Header.tsx)
   - [The Form is a component](./src/Form.tsx)
   - [The Result is a component](./src/Result.tsx)
   - [Separate the code for the API call into its own file](./lib/fetch-weather-data.tsx)
