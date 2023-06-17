@@ -17,7 +17,7 @@ interface WeatherData {
 const apiKey: string | undefined = import.meta.env.VITE_OPEN_WEATHER_API_KEY;
 
 function buildGeocodingUrl(city: string): string {
-  const baseUrl = "http://api.openweathermap.org/geo/1.0/direct?"
+  const baseUrl = "https://api.openweathermap.org/geo/1.0/direct?"
   const queryParams = `q=${city}&limit=1&appid=${apiKey}`;
   return baseUrl + queryParams
 }

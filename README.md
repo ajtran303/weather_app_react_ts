@@ -2,6 +2,10 @@
 
 A weather app built with React and Typescript with the Vite build tool.
 
+## Try the demo online
+
+[Skip straight to the fun part without setting anything up!](https://weather-app-edkw.onrender.com/)
+
 ## Prerequisites
 
 You must have `node` installed.
@@ -11,7 +15,7 @@ You must have `node` installed.
 - [Sign up for an OpenWeatherMap account](https://home.openweathermap.org/users/sign_up).
 - You will receive an email with your API Key in it. For more information, read the [API Key Documentation](https://openweathermap.org/appid).
 
-## Setup
+## Local Setup
 
 Fork and clone this repo, `cd` into it and run `npm install`. 
 
