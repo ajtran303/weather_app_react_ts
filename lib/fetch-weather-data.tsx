@@ -17,14 +17,14 @@ interface WeatherData {
 const apiKey: string | undefined = import.meta.env.VITE_OPEN_WEATHER_API_KEY;
 
 function buildGeocodingUrl(city: string): string {
-  const baseUrl = "https://api.openweathermap.org/geo/1.0/direct?"
-  const queryParams = `q=${city}&limit=1&appid=${apiKey}`;
+  const baseUrl = "https://api.openweathermap.org/geo/1.0/direct"
+  const queryParams = `?q=${city}&limit=1&appid=${apiKey}`;
   return baseUrl + queryParams
 }
 
 function buildWeatherUrl(coordinates: Coordinates): string {
-  const baseUrl = "https://api.openweathermap.org/data/2.5/weather?" 
-  const queryParams = `lat=${coordinates.lat}&lon=${coordinates.lon}&units=imperial&appid=${apiKey}`;
+  const baseUrl = "https://api.openweathermap.org/data/2.5/weather"
+  const queryParams = `?lat=${coordinates.lat}&lon=${coordinates.lon}&units=imperial&appid=${apiKey}`;
   return baseUrl + queryParams
 }
 
