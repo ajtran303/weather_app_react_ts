@@ -27,9 +27,9 @@ function Result(props: any): JSX.Element {
         <>
           <h2 style={headingStyle}>{weatherData.city} {weatherIcon}</h2>
           <p>Description: {weatherData.description} </p>
-          <p>Current temp: {weatherData.currentTemp} degrees F</p>
-          <p>Feels like: {weatherData.feelsLike} degrees F</p>
-          <p>Wind Speed: {weatherData.windSpeed} mph</p>
+          <p>Current temp: {weatherData.currentTemp}°F</p>
+          <p>Feels like: {weatherData.feelsLike}°F</p>
+          <p>Wind Speed: {weatherData.windSpeed}mph</p>
         </>
         }
     </section>
