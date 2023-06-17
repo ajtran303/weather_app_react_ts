@@ -35,7 +35,7 @@ function App(): JSX.Element {
   return (
     <>
       <Header />
-      <main style={containerStyle}>
+      <main style={containerStyle as React.CSSProperties}>
         <Form onSubmit={handleSubmit} />
         <Result weatherData={weatherData} />
       </main>
