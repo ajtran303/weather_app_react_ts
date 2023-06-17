@@ -32,7 +32,7 @@ function Form(props: any): JSX.Element {
 
   return (
     <form className="weather-form" method="get" onSubmit={onSubmit} style={containerStyle as React.CSSProperties}>
-      <label htmlFor="target-city" style={labelStyle as React.CSSProperties}>City: </label>
+      <label htmlFor="target-city" style={labelStyle as React.CSSProperties}>City </label>
       <input type="text" id="target-city" name="city" placeholder="Enter your city" style={inputStyle} onFocus={handleFocus} onBlur={handleBlur} />
       <button type="submit">Search</button>
     </form>
