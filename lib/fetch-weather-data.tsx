@@ -1,3 +1,5 @@
+/* eslint-disable react-refresh/only-export-components */
+
 interface Coordinates {
   lat?: number;
   lon?: number;
@@ -55,4 +57,5 @@ async function fetchWeatherData(city: string): Promise<WeatherData> {
   }
 }
 
-export default fetchWeatherData
+export { fetchWeatherData }
+export type { WeatherData }
